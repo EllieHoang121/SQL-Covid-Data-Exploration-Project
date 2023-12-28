@@ -11,11 +11,11 @@ Project goals:
 Understand the COVID impact on global and national levels, the infected rate, and the surviving rate.
 
 Setup process:
-Step 1: Collect data from the above source.
-Step 2: Import data to SSMS to analyze.
-Step 3: Doing the analysis:
-- Calculating the likelihood of dying
-- Countries and their highest infected percentages, total deaths and highest death rate
-- The global trend of cases, deaths, and death rates
-- Countries and their vaccination situation
-- Relationship between vaccination situation and gdp
+* Step 1: Collect data from the above source.
+* Step 2: Import data to SSMS to analyze.
+* Step 3: Doing the analysis:
+  - Calculating the likelihood of dying
+  - Countries and their highest infected percentages, total deaths and highest death rate
+  - The global trend of cases, deaths, and death rates
+  - Countries and their vaccination situation
+  - Relationship between vaccination situation and gdp
