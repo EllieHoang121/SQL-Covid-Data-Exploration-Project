@@ -1,21 +1,23 @@
-The COVID project is about analyzing the impact of COVID on countries and the vaccination situation in each country.
+The COVID project focused on assessing COVID-19's effects on different countries, specifically delving into the vaccination status in each nation.
 
-About Project
-The dataset contained information about country, time, deaths, and vaccinations.
+Data Source:
+The dataset was sourced from https://ourworldindata.org/covid-deaths.
 
-Data source: https://ourworldindata.org/covid-deaths
+A breakdown of how this was achieved:
 
-Technologies used: MS SQL Server Management
+1. **Project Goals**: The main objectives revolved around comprehending the global and national impact of COVID-19. This involved examining infection rates, survival rates, and their implications at both levels.
 
-Project goals:
-Understand the COVID impact on global and national levels, the infected rate, and the surviving rate.
+2. **Setup Process**:
+   - **Step 1**: Gathering data from the source.
+   - **Step 2**: Importing the collected data into SSMS (SQL Server Management Studio).
+   - **Step 3**: Review the dataset.
+   - **Step 4**: Perform calculations.
 
-Setup process:
-* Step 1: Collect data from the above source.
-* Step 2: Import data to SSMS to analyze.
-* Step 3: Doing the analysis:
-  - Calculating the likelihood of dying
-  - Countries and their highest infected percentages, total deaths and highest death rate
-  - The global trend of cases, deaths, and death rates
-  - Countries and their vaccination situation
-  - Relationship between vaccination situation and gdp
+3. **Analysis Procedures**:
+   - Calculating the probability of mortality due to COVID.
+   - Identifying countries with the highest infection rates, total fatalities, and highest mortality rates.
+   - Studying the global trends encompassing cases, fatalities, and mortality rates.
+   - Evaluating the vaccination status across different countries.
+   - Exploring the potential relationship between a country's vaccination status and its Gross Domestic Product (GDP).
+
+Through these outlined steps, the project aimed to elucidate and analyze the profound impact of COVID across various nations, shedding light on the vaccination landscape and its potential correlations with economic indicators like GDP.
